@@ -43,6 +43,9 @@
   padding: 0.8rem;
   font-family: var(--font-base);
   font-size: 0.8rem;
+  border-color: transparent;
+  border-width: 1px;
+  transition: all 350ms ease-in-out;
 }
 
 .grid-container {
@@ -161,7 +164,7 @@
     border-bottom-left-radius: 0rem;
   }
 
-  .grid_button{
+  .grid_button {
     display: flex;
     flex-direction: column;
   }
@@ -188,10 +191,10 @@
     border-bottom-left-radius: 0rem;
   }
 
-  .grid_button:hover{
-      background: transparent;
-      transition: 0.2s ease-in-out;
-      color: white;
-      border: 1px solid white;
+  .grid_button:hover {
+    background: transparent;
+    transition: 0.2s ease-in-out;
+    color: white;
+    border: 1px solid white;
   }
 }
