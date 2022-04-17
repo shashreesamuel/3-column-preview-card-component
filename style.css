@@ -152,13 +152,13 @@
   }
 
   .grid_luxury {
-    border-top-right-radius: 0rem;
+    border-top-right-radius: 0;
     border-bottom-left-radius: 0.5rem;
   }
 
   .grid_sedan {
     border-top-right-radius: 0.5rem;
-    border-bottom-left-radius: 0rem;
+    border-bottom-left-radius: 0;
   }
 
   .grid_button{
@@ -179,13 +179,13 @@
   .grid_sedan {
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
-    border-top-right-radius: 0rem;
+    border-top-right-radius: 0;
   }
 
   .grid_luxury {
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
-    border-bottom-left-radius: 0rem;
+    border-bottom-left-radius: 0;
   }
 
   .grid_button:hover{
